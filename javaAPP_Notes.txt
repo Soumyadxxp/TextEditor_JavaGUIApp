@@ -1,0 +1,29 @@
+MENU :
+
+THEY ARE CONTAINED WITHIN A MENUBAR CLICKING ON A NAME OPENS THE MENU CONTAINING MENU ITEMS AND SUBMENU'S. THE CLASS USED TO CREATE A MENU IS JMenu. 
+the constructor for creating menu is : 
+public Jmenu(String s)
+public Jmenu(Action a)
+public Jmenu(String s, boolean b)
+constructs  a menu with the label s. To add a menu to the menubar the method of the class JMenubar user is add 
+protoype : 
+
+public JMenu add( JMenu menu)
+ appends the specified menu to the end of the menubar 
+___________________________________________________
+
+MenuItem :
+
+when the user clicks on a menu item, all menus are closed and a message is send to the program. the class used to create MenuItem is JMenuItem. The constructors for creating MenuItem are:
+
+public JmenuItem(String s)
+public JmenuItem(String s, Icon c)
+public JmenuItem(Icon C)
+public JmenuItem( String s , int mnemonic)
+
+constructs a MenuItem either a label s or image c or both 
+to add a MenuItem to a menu the method of JMenu class used is add() for example : 
+ 
+
+
+
